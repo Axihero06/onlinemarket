@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: RGB(242, 242, 242);
+}
+.market-box{
+    width: 85%;
+}
+
+.market{
+    height: 300px;
+    width: 85%;
+    min-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding-right: 30px;
+    align-items: center;
+    line-height: 12vw;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.img-cont1,.img-cont2,.img-cont3{
+    width: 280px;
+    height: 300px;
+    background-image: url("../img/lepyosh.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.img-cont2{
+    background-image: url("../img/chapchak.jpg")
+}
+.img-cont3{
+    background-image: url("../img/buxonka.jpg");
+}
+.img-cont4{
+    background-image: url("../img/KARTOSHKA.jpg");
+}
+.img-cont5{
+    background-image: url("../img/SABZI.jpg");
+}
+.img-cont6{
+    background-image: url("../img/PIYOZ.jpeg");
+}
+#plus,#minus{
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    height: 60px;
+    margin-right: 5px;
+    outline: none;
+    width: 4vw;
+    border-radius: 50%;
+    font-family: Montserrat6;
+    
+}
+.span{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 3vw;
+    justify-content: space-around;
+}
+#num{
+    font-size: 3vw;
+    font-family: Montserrat6;
+    margin: 0 15px;
+}
+.main-container{
+    padding: 50px 40px;
+}
+#narxi{
+    font-size: 30px;
+    font-family: Montserrat6;
+}
+#jami{
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat6;
+    width: 130px;
+    font-size: 25px;
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.result{
+    width: 25%;
+    height: 300px;
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    bottom: 0px;
+}
+.lesson{
+    width: 85%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 20px 0;
+    font-size: 40px;
+}
